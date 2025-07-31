@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import './App.css';
 import React from "react";
-import Navbar from "./components/NavBar";
+import Navbar from "./components/Navbar/NavBar";
+import SobreNos from "./components/SobreNos/SobreNos";
 
 function App() {
   
@@ -10,10 +11,8 @@ function App() {
     
       <div>
       <Navbar />
-      <section id="sobre-nos">
-        <h2>Sobre Nós</h2>
-        {/* conteúdo */}
-      </section>
+
+      <SobreNos />
 
       <section id="porque-investir">
         <h2>Por que investir?</h2>
