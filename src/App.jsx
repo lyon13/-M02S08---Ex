@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar/NavBar";
 import SobreNos from "./components/SobreNos/SobreNos";
 import PorqueInvestir from "./components/PorqueInvestir/PorqueInvestir";
 import Produtos from "./components/Produtos/Produtos";
-
+import Orcamento from "./components/Orcamento/Orcamento";
 function App() {
   
 
@@ -20,10 +20,7 @@ function App() {
 
       <Produtos />
 
-      <section id="orcamento">
-        <h2>Orçamento</h2>
-        {/* conteúdo */}
-      </section>
+      <Orcamento />
     </div>
     
   );
