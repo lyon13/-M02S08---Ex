@@ -6,6 +6,7 @@ import SobreNos from "./components/SobreNos/SobreNos";
 import PorqueInvestir from "./components/PorqueInvestir/PorqueInvestir";
 import Produtos from "./components/Produtos/Produtos";
 import Orcamento from "./components/Orcamento/Orcamento";
+import Footer from "./components/Footer/Footer";
 function App() {
   
 
@@ -21,6 +22,8 @@ function App() {
       <Produtos />
 
       <Orcamento />
+
+      <Footer />
     </div>
     
   );
