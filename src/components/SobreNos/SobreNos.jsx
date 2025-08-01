@@ -1,4 +1,4 @@
-import minhaImagem from '../../assets/solar.jpg';
+import minhaImagem from '../../Imagens/solar.jpg';
 import './SobreNos.css';
 function SobreNos(){
 

@@ -4,6 +4,7 @@ import React from "react";
 import Navbar from "./components/Navbar/NavBar";
 import SobreNos from "./components/SobreNos/SobreNos";
 import PorqueInvestir from "./components/PorqueInvestir/PorqueInvestir";
+import Produtos from "./components/Produtos/Produtos";
 
 function App() {
   
@@ -17,10 +18,7 @@ function App() {
 
       <PorqueInvestir />
 
-      <section id="produtos">
-        <h2>Produtos</h2>
-        {/* conteúdo */}
-      </section>
+      <Produtos />
 
       <section id="orcamento">
         <h2>Orçamento</h2>
