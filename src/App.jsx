@@ -3,6 +3,7 @@ import './App.css';
 import React from "react";
 import Navbar from "./components/Navbar/NavBar";
 import SobreNos from "./components/SobreNos/SobreNos";
+import PorqueInvestir from "./components/PorqueInvestir/PorqueInvestir";
 
 function App() {
   
@@ -14,10 +15,7 @@ function App() {
 
       <SobreNos />
 
-      <section id="porque-investir">
-        <h2>Por que investir?</h2>
-        {/* conteúdo */}
-      </section>
+      <PorqueInvestir />
 
       <section id="produtos">
         <h2>Produtos</h2>
